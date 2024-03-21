@@ -1,0 +1,16 @@
+.navbar {
+    /* background-color: var(--color-primary); */
+    background-color: #34c94b;
+    
+    /* take from root */
+    height: 100%;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+
+
+}

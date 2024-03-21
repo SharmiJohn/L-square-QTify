@@ -1,0 +1,15 @@
+:root {
+    /* intha root html la mean pannuthu */
+    /* global varible to be defined here */
+    /* variable vachu itha declare pannita namba enga vena use pannalam */
+/* Make sure you use CSS variables to mention the colors. */
+/* can give any name color primary or colour first anything we can give */
+--color-primary:#34c94b;
+--color-black:#121212;
+--color-white:#ffffff;
+
+
+
+
+}
+
