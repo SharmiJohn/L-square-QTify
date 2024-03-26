@@ -13,9 +13,9 @@ const CarouselRight=()=>{
    
    return(<div className={style.right}>
     {/* begining illana kaittu' */}
-    {/* <RightArrow onClick={()=>swiper.slideNext()}/> */}
+    <RightArrow onClick={()=>swiper.slideNext()}/>
 
- {!isEnd && <RightArrow onClick={()=>swiper.slideNext()}/>} 
+ {/* {!isEnd && <RightArrow onClick={()=>swiper.slideNext()}/>}  */}
     </div>)
 }
 export default CarouselRight;

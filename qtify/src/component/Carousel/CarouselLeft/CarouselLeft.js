@@ -15,8 +15,8 @@ const CarouselLeft = () => {
            },[]);
     return (
         <div className={style.left}>             
-         {/* <LeftArrow onClick={()=>swiper.slidePrev()}/>  */}
-            {!isBeginning && <LeftArrow onClick={()=>swiper.slidePrev()}/>}
+         <LeftArrow onClick={()=>swiper.slidePrev()}/> 
+            {/* {!isBeginning && <LeftArrow onClick={()=>swiper.slidePrev()}/>} */}
         </div>
     );
 };
