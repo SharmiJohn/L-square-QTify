@@ -43,18 +43,19 @@ import Cards from "../Card/Card"
 
            {data.length===0?
            (<CircularProgress/>):
-            //show all and carousel when  carouselToggle is true
-            (<div className={stylecss.cardContainer} >{CardstoRender.map((ele)=>(<Cards data={ele} type={type}/>))}</div>)
-        //    (<div>
-           
-        //     {carouselToggle?
-        //     // true
-        //     (<Carousel data={CardstoRender} renderComponent={(data)=><Cards data={data} type={type}/>} />):
-        //     // false
-        //     (<div>{CardstoRender.map((ele)=>(<Cards data={ele} type={type}/>))}</div>)
 
-           }
-       {/* </div> )} */}
+         //show all and carousel when  carouselToggle is true 
+           
+          (<div>
+           
+        {carouselToggle? 
+             // true 
+             (<Carousel data={CardstoRender} CardComponent={(data)=><Cards data={data} type={type}/>} />):
+            // false 
+            (<div className={stylecss.cardContainer} >{CardstoRender.map((ele)=>(<Cards data={ele} type={type}/>))}</div>) 
+
+          }
+      </div> )} 
        </>)
           
 }

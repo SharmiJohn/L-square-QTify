@@ -12,7 +12,7 @@
 }
 .cardContainer {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 6 cards in each row */
+    grid-template-columns: repeat(7, 1fr); /* 6 cards in each row */
     gap: 10px; /* Adjust spacing between cards */
     
     background-color: #121212;
