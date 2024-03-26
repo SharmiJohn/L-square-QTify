@@ -17,7 +17,8 @@ const Carousel = ({ data, CardComponent }) => {
   return (
     <div className={style.container}>
       <Swiper
-        style={{ padding: "0px 20px" }}
+        style={{ padding: "0px 20px",position:"relative !important" }}
+        
         initialSlide={0}
         modules={[Navigation]}
         slidesPerView={"auto"}

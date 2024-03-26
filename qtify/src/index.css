@@ -12,4 +12,11 @@
 
 
 }
-
+.swiper{
+    position: relative !important
+}
+.CarouselLeft_left__CSKMe{
+    position:absolute;
+    top:30px;
+    z-index: 3;
+}
