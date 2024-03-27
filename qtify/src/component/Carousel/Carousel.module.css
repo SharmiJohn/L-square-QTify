@@ -1,7 +1,7 @@
 .container{
-    flex: 0 0 auto; /* Prevent slides from shrinking grow, shrik, size*/ 
-     width:auto ; /* Set slide width to auto */
-    
+    flex:0 0 auto; /* Prevent slides from shrinking grow, shrik, size*/ 
+     width: 100% ; /* Set slide width to auto */
+    max-width:max-content;
     background-color: #121212;
    
      

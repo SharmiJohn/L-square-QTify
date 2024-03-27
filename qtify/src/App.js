@@ -23,6 +23,7 @@ const generatedata=(key,fun)=>{
 // Again destructurind the Data in the setdata
 //in data have object so we are assigning to array --array of object
 const {topAlbums=[],newAlbums=[],songs=[]}=data
+
 //has array of obj [{},{}]
 
 

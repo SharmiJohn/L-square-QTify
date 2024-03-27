@@ -16,6 +16,8 @@ const Carousel = ({ data, CardComponent }) => {
   console.log(CardComponent);
   return (
     <div className={style.container}>
+      {/* <div> {data.map((ele, index)=>{return <div className={style.container}> {CardComponent(ele)}</div>})}</div> */}
+    
       <Swiper
         style={{ padding: "0px 20px",position:"relative !important" }}
         

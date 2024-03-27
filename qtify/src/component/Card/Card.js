@@ -11,7 +11,7 @@ const Cards = ({ data, type }) => {
       return (
         <div className={style.card} > 
         <Tooltip title={`${songs.length}songs`} placement="top" arrow>
-        <Card sx={{maxwidth:345}}>
+        <Card sx={{maxwidth:500}}>
           <CardMedia
           className={style.cardimg}
             component="img"
