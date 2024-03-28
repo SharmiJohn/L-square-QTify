@@ -29,6 +29,29 @@ const Cards = ({ data, type }) => {
        
       );
     }
+    case "songs": {
+      const { image, likes, title} = data;
+      return (
+        <div className={style.card} > 
+        
+        <Card sx={{maxwidth:500}}>
+          <CardMedia
+          className={style.cardimg}
+            component="img"
+            
+            height="200"
+            image={image}
+            alt="albumn"
+          />
+          <CardContent>
+            <Chip className={style.chip} label={`${likes}Likes`} size="small" />
+          </CardContent>
+        </Card>
+        <div className={style.colortitle}>{title}</div>
+      </div>
+       
+      );
+    }
     default:
       return;
   }

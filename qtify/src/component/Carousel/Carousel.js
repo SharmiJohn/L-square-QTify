@@ -12,8 +12,8 @@ import style from "../Carousel/Carousel.module.css";
 //     },[data]);
 // }
 const Carousel = ({ data, CardComponent }) => {
-  console.log(data);
-  console.log(CardComponent);
+ // console.log(data);
+ // console.log(CardComponent);
   return (
     <div className={style.container}>
       {/* <div> {data.map((ele, index)=>{return <div className={style.container}> {CardComponent(ele)}</div>})}</div> */}
